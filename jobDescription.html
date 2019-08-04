@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Posting Form</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+        <script>tinymce.init({ selector:'textarea' });</script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container-fluid">
+                
+                <div class="row col-sm-12 navigation">
+                            <div class="steps">
+                                <span class="step-element">
+                                    <a href="index.html" id="link">
+                                        <span class="step-no">1</span><span class="step-text"> Job Details </span>
+                                    </a>
+                                </span>
+                                <span class="step-element">
+                                    <a href="jobDescription.html" id="link">
+                                        <span class="step-no">2</span><span class="step-text"   style="color: #fe6625" > Job Description </span>
+                                    </a>
+                                </span>
+                                <span class="step-element">
+                                    <a href="Screening.html" id="link">
+                                        <span class="step-no">3</span><span class="step-text"> Screening</span>
+                                    </a>
+                                </span>
+                            </div>
+                </div>
+                
+                <div class="row text-center col-xs-9 col-xs-offset-1">
+                            <div class="title">
+                                <h3 id="title">Job Description</h3>
+                            </div>
+                </div>
+                <div class="row col-xs-12  col-md-12 text-center" style="margin-bottom: 10px;">
+                            <div class="formarea">
+                                <form class="form">
+                                    <div class="form-group row" style="padding: 5px;padding-left: 0px;">
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Job Summary</label>
+                                         <div class="col-sm-8">
+                                           <div>
+                                               <ul class="list-inline">
+                                                   <!--<li><select class="form-control" id="degree">
+                                                 <option value="select" selected disabled></option>
+                                                 <option>B.tech</option>
+                                                 <option>Bsc</option>
+                                                 <option>MBA</option>
+                                                 <option>M.tech</option>
+                                            </select></li>-->
+                                                   <li class="dtext" style="padding: 4px">
+                                                       <span style="border-right: 1px solid grey; padding: 5px;padding-left: 5px;padding-right: 5px;" ><b>Bold</b></span><span style="border-right: 1px solid grey;padding: 5px;"><i>Italic</i> </span>
+                                                       <span style="padding-left: 5px;padding: 5px;">Underline </span>
+                                                   </li>
+                                                   <li class="dtext" style="padding: 1px">
+                                                       <span  class="glyphicon glyphicon-list" style="border-right: 1px solid grey;padding: 8px;" ></span>
+                                                       <span  class="glyphicon glyphicon-th-list" style="border-right: 1px solid grey;padding: 5px;"></span>
+                                                       
+                                                       <span class="glyphicon glyphicon-indent-left" style="border-right: 1px solid grey;padding: 5px;" > </span>
+                                                       <span class="glyphicon glyphicon-indent-right" style="border-right: 1px solid grey;padding: 5px;"></span>
+                                                       <span>
+                                                           
+                                                       </span>
+                                                   </li>
+                                                      
+                                               </ul>
+                                           </div>     
+                                           <textarea class="form-control" rows="5" id="comment"></textarea>
+                                         </div>
+                                     </div>
+                                    <div class="form-group row" style="padding: 5px;padding-left: 0px;">
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Job Responsiblities</label>
+                                         <div class="col-sm-4">    
+                                           <textarea class="form-control" rows="5" id="comment"></textarea>
+                                         </div>
+                                    </div>
+                                    
+                                <div style="margin-top: 0px;">
+                                    <button id="btn">  Save and Continue
+                                    </button>    
+                                </div>
+                              </form>
+                          </div>
+                       </div>
+                </div>    
+                
+        </div>
+    </body>

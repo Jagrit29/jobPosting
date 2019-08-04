@@ -1,0 +1,138 @@
+/*Steps in Resume to be filled*/
+.navigation
+{
+    padding: 5px;
+    margin-top:15px;
+}
+.steps
+{
+    padding-left: 10px;
+}
+
+.step-element
+{
+    padding: 10px;
+}
+
+.step-no
+{
+    color: white;
+    background-color: #fe6625;
+    padding-right: 5px;
+    padding-left: 5px;
+    /*border: 2px solid #8a1329;*/
+    border-radius: 50%;
+}
+.step-text
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 17px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform: uppercase;
+    color: #666666;
+    padding-left: 5px;
+}
+.step-text:hover{
+    color: #fe6625;
+}
+#link
+{
+    text-decoration: none;
+}
+.step-text:active{
+    color: #fe6625;
+}
+
+/*Heading*/
+
+#title
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 18px!important;
+    font-weight: 700!important;
+    line-height: 24px!important;
+    letter-spacing: -.29px!important;
+    text-transform: uppercase;
+    color: #fe6625;
+    text-decoration:underline;
+}
+
+
+
+
+label
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 14px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform:capitalize;
+    color: #666666;
+}
+#next-btn
+{
+    border: 1px solid #aa1f2e;
+    background-color: #fe6625;
+    border-radius: 30px;
+    padding: 0px 7px 0px 7px;
+    margin-top: 15px;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform: uppercase;
+    color:white;
+    margin-left: 20px;
+}
+#btn
+{
+    border: 1px solid #aa1f2e;
+    background-color: #fe6625;
+    border-radius: 30px;
+    padding: 0px 7px 0px 7px;
+    margin-top: 15px;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform: uppercase;
+    color:white;
+}
+#degree
+{
+    color: #666666;
+}
+
+
+.inputfield
+{
+    padding: 5px;
+    padding-top: 10px;
+    margin-top: 15px;
+    padding-left: 0px;
+    border: 1px solid lightgrey;
+    
+}
+.yrsOfExp
+{
+    padding-top: 4px;
+    margin-left: -40px;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    color: #666666;
+    
+}
+.cross1
+{
+    float: right;
+    padding-top: 5px;
+    color: #666666;
+    font-size: 25px;
+}
+.form-group
+{
+    margin-bottom: 5px;
+}

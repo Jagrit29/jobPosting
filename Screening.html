@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Posting Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container-fluid">
+                
+                <div class="row col-sm-12 navigation">
+                            <div class="steps">
+                                <span class="step-element">
+                                    <a href="index.html" id="link">
+                                        <span class="step-no">1</span><span class="step-text"> Job Details </span>
+                                    </a>
+                                </span>
+                                <span class="step-element">
+                                    <a href="jobDescription.html" id="link">
+                                        <span class="step-no">2</span><span class="step-text" > Job Description </span>
+                                    </a>
+                                </span>
+                                <span class="step-element">
+                                    <a href="Screening.html" id="link">
+                                        <span class="step-no">3</span><span class="step-text" style="color: #fe6625"> Screening</span>
+                                    </a>
+                                </span>
+                            </div>
+                </div>
+                
+                <div class="row text-center col-xs-9 col-xs-offset-1">
+                            <div class="title">
+                                <h3 id="title">Screening</h3>
+                            </div>
+                </div>
+                <div class="row col-xs-10  col-md-10 col-xs-offset-1 text-center" style="margin-bottom: 5px;">
+                            <div class="formarea">
+                                <form class="form">
+                                    <div class="form-group row inputfield">
+                                         <div class="form-group row " style="padding: 0px 5px;">
+                                         <label for="inputEmail" class="col-xs-2 col-xs-offset-0 col-form-label text-left" style="margin-top: 5px;margin-left: 20px;">Minimum</label>
+                                         <div class="col-xs-1 input1">
+                                            <select class="form-control" id="degree" style="width: 50px;">
+                                                 <option value="Select" selected disabled>0</option>
+                                                 <option>B.tech</option>
+                                                 <option>Bsc</option>
+                                                 <option>MBA</option>
+                                                 <option>M.tech</option>
+                                             </select>
+                                        </div> 
+                                        <div class="col-xs-3 yrsOfExp">
+                                            Years of Experience
+                                        </div>
+                                        <div class="col-xs-1 cross1" style="float: right;">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>      
+                                        <div class="col-xs-2" style="float: right">
+                                            <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Preferred 
+                                          </label><br>
+                                          <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Required
+                                          </label>
+                                        </div> 
+                                     </div>
+                                    </div>
+                                    
+                                    <div class="form-group row inputfield">
+                                         <div class="form-group row ">
+                                         <label for="inputEmail" class="col-xs-4 col-xs-offset-0 col-form-label text-left" style="margin-top: 5px;margin-left: 20px;">Minimum Level of Education</label>
+                                         <div class="col-xs-2 input1">
+                                            <select class="form-control" id="degree">
+                                                 <option value="Select" selected disabled>0</option>
+                                                 <option>B.tech</option>
+                                                 <option>Bsc</option>
+                                                 <option>MBA</option>
+                                                 <option>M.tech</option>
+                                             </select>
+                                        </div> 
+                                        <div class="col-xs-1 cross1" style="float: right;">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>      
+                                        <div class="col-xs-2" style="float: right">
+                                            <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Preferred 
+                                          </label><br>
+                                          <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Required
+                                          </label>
+                                        </div> 
+                                     </div>
+                                    </div>
+                                     <div class="form-group row inputfield">
+                                         <div class="form-group row ">
+                                         <label for="inputEmail" class="col-xs-4 col-xs-offset-0 col-form-label text-left" style="margin-top: 5px;margin-left: 20px;">Preferred City</label>
+                                         <div class="col-xs-2 input1">
+                                           <input type="email" class="form-control" id="inputEmail" placeholder="">
+                                        </div> 
+                                        <div class="col-xs-1 cross1" style="float: right;">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>      
+                                        <div class="col-xs-2" style="float: right">
+                                            <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Preferred 
+                                          </label><br>
+                                          <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Required
+                                          </label>
+                                        </div> 
+                                     </div>
+                                    </div>
+                                     <div class="form-group row inputfield">
+                                         <div class="form-group row ">
+                                         <label for="inputEmail" class="col-xs-4 col-xs-offset-0 col-form-label text-left" style="margin-top: 5px;float: left;margin-left: 20px;">Candidates should know Skills like</label>
+                                         <div class="col-xs-2 input1">
+                                           <input type="email" class="form-control" id="inputEmail" placeholder="">
+                                        </div> 
+                                        <div class="col-xs-1 cross1" style="float: right;">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>      
+                                        <div class="col-xs-2" style="float: right">
+                                            <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Preferred 
+                                          </label><br>
+                                          <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Required
+                                          </label>
+                                        </div> 
+                                     </div>
+                                    </div>
+                                     <div class="form-group row inputfield">
+                                         <div class="form-group row ">
+                                         <label for="inputEmail" class="col-xs-4 col-xs-offset-0 col-form-label text-left" style="margin-top: 5px;margin-left: 20px;">Speak Languages</label>
+                                         <div class="col-xs-2 input1">
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="">
+                                        </div> 
+                                        <div class="col-xs-1 cross1" style="float: right;">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>      
+                                        <div class="col-xs-2" style="float: right">
+                                            <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Preferred 
+                                          </label><br>
+                                          <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Required
+                                          </label>
+                                        </div> 
+                                     </div>
+                                    </div>
+                                    
+                                     <div class="form-group row inputfield">
+                                         <div class="form-group row ">
+                                         <label for="inputEmail" class="col-xs-4 col-xs-offset-0 col-form-label text-left" style="margin-top: 5px;margin-left: 20px;">Notice Period must be less than </label>
+                                         <div class="col-xs-1 input1">
+                                            <select class="form-control" id="degree">
+                                                 <option value="Select" selected disabled>7</option>
+                                                 <option>B.tech</option>
+                                                 <option>Bsc</option>
+                                                 <option>MBA</option>
+                                                 <option>M.tech</option>
+                                             </select>
+                                        </div>
+                                         <div class="col-xs-1 yrsOfExp">
+                                            days
+                                        </div>    
+                                        <div class="col-xs-1 cross1" style="float: right;">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>      
+                                        <div class="col-xs-2" style="float: right">
+                                            <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Preferred 
+                                          </label><br>
+                                          <label class="radio-inline">
+                                               <input type="radio" name="optradio"> Required
+                                          </label>
+                                        </div> 
+                                     </div>
+                                    </div>
+                                
+                                    
+                                    
+                                  
+                                    
+                                <div style="margin-top: 0px;">
+                                    <button id="btn">  Save and Continue
+                                    </button>    
+                                </div>
+                              </form>
+                          </div>
+                       </div>
+                </div>    
+                
+        </div>
+    </body>
