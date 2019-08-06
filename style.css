@@ -7,11 +7,22 @@
 .steps
 {
     padding-left: 10px;
+    margin-left: 40;
+    padding: 8px;
 }
-
+.bordertop
+{
+    padding: 8px;
+    margin-right: 5px;
+}
 .step-element
 {
-    padding: 10px;
+    padding:8px 30px;
+    
+}
+.step-element2
+{
+    padding:8px 30px;
 }
 
 .step-no
@@ -29,9 +40,8 @@
     font-size: 17px!important;
     line-height: 20px!important;
     letter-spacing: .05em!important;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #666666;
-    padding-left: 5px;
 }
 .step-text:hover{
     color: #fe6625;
@@ -135,4 +145,19 @@ label
 .form-group
 {
     margin-bottom: 5px;
+}
+.img1
+{
+    width: 240px;
+    height: 60px;
+    margin-top:-10px;
+    padding-left: 10px;
+}
+.star
+{
+    color: red;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
 }

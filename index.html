@@ -6,27 +6,65 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <style>
+            .step-element1
+                {
+                    padding:8px 30px;
+                    border:1px solid #fe6625;
+                    border-bottom-right-radius: 20px;
+                    border-top-right-radius: 20px;
+                    background-color:floralwhite;
+
+                }
+        </style>
     </head>
-    <body>
+    <body style="padding-top: 60px;">
+         <div class="navbar  navbar-fixed-top">
+            <div class="container-fluid" style="height: 70px;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbutton" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="sidebutton" onclick="toggleSidebar()" >
+                        <span></span>
+                        <span></span>
+                        <span></span> 
+                    </div>
+                    <div >
+                    <a class="navbar-brand" href="index.html">
+                        <img src="TalentFore-Logo_01.png" class="img1" >    
+                    </a>
+                    </div>    
+                </div>
+            </div>
+        </div>
         <div class="main">
             <div class="container-fluid">
                 
                 <div class="row col-sm-12 navigation">
                             <div class="steps">
-                                <span class="step-element">
+                                <span class="bordertop">
+                                <span class="step-element1">
                                     <a href="index.html" id="link">
-                                        <span class="step-no">1</span><span class="step-text" style="color: #fe6625"> Job Details </span>
+                                          <span class="step-no">1</span><span class="step-text" style="color: #fe6625"> Job Details </span>
                                     </a>
                                 </span>
-                                <span class="step-element">
+                                <span class="step-element2">
                                     <a href="jobDescription.html" id="link">
                                         <span class="step-no">2</span><span class="step-text" > Job Description </span>
                                     </a>
                                 </span>
-                                <span class="step-element">
+                                <span class="step-element3">
                                     <a href="Screening.html" id="link">
                                         <span class="step-no">3</span><span class="step-text"> Screening</span>
                                     </a>
+                                </span>
+                                </span>    
+                                <span>
+                                    <span class="star" style="float: right;margin-right: 100px;"> * Indicates Mandatory Fields</span>
                                 </span>
                             </div>
                 </div>
@@ -40,7 +78,7 @@
                             <div class="formarea">
                                 <form class="form">
                                     <div class="form-group row ">
-                                         <label for="inputEmail" class="col-sm-3 col-form-label" style="margin-top: 5px;">Job Title</label>
+                                         <label for="inputEmail" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Job Title</label>
                                          <div class="col-sm-8 input1">
                                             <select class="form-control" id="degree">
                                                  <option value="Select" selected disabled>Select or Write a Job Title</option>
@@ -53,7 +91,7 @@
                                      </div>
                                     
                                     <div class="form-group row">
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Company</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Company <span class="star"> *</span> </label>
                                          <div class="col-sm-8">
                                           <select class="form-control" id="degree">
                                                  <option value="Select" selected disabled>Select or Write a Job Title</option>
@@ -65,7 +103,7 @@
                                          </div>
                                      </div>
                                     <div class="form-group row">
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Industry</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Industry <span class="star"> *</span> </label>
                                          <div class="col-sm-8">
                                           <select class="form-control" id="degree">
                                                  <option value="Select" selected disabled>Select or Write a Job Title</option>
@@ -77,7 +115,7 @@
                                          </div>
                                      </div>
                                     <div class="form-group row">
-                                         <label for="inputDate" class="col-sm-3 col-form-label" style="margin-top: 5px;">Experience</label>
+                                         <label for="inputDate" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Experience <span class="star"> *</span> </label>
                                          <div class="col-sm-8 row">
                                            <div class="col-sm-3" style="padding-right: 0px;">     
                                               <select class="form-control" id="degree">
@@ -103,7 +141,7 @@
                                      </div>
                                     
                                      <div class="form-group row">
-                                         <label for="inputDate" class="col-sm-3 col-form-label" style="margin-top: 5px;">Offered CTC</label>
+                                         <label for="inputDate" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Offered CTC <span class="star"> *</span></label>
                                          <div class="col-sm-8 row">
                                            <div class="col-sm-3" style="padding-right: 0px;">     
                                               <select class="form-control" id="degree">
@@ -127,13 +165,13 @@
                                          </div>
                                     </div>
                                     <div class="form-group row" >
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Key skills</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Key skills<span class="star"> *</span></label>
                                          <div class="col-sm-8">
                                            <input type="email" class="form-control" id="inputEmail" placeholder="">
                                          </div>
                                     </div>
                                     <div class="form-group row" >
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Qualifications</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Qualifications</label>
                                          <div class="col-sm-8">
                                            <select class="form-control" id="degree">
                                                  <option value="select" selected disabled>Select or Write a Qualification</option>
@@ -145,14 +183,14 @@
                                          </div>
                                     </div>
                                     <div class="form-group row" >
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Number of Openings</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Number of Openings</label>
                                          <div class="col-sm-8">
                                            <input type="email" class="form-control" id="inputEmail" placeholder="">
                                          </div>
                                     </div>
                                     
                                     <div class="form-group row" >
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Location</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Location<span class="star"> *</span></label>
                                          <div class="col-sm-8">
                                            <input type="email" class="form-control" id="inputEmail" placeholder="">
                                          <div class="checkbox" style="float: left;">
@@ -161,7 +199,7 @@
                                         </div>     
                                     </div>
                                     <div class="form-group row" >
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Job Type</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Job Type</label>
                                           <div class="col-sm-8 text-left">
                                            <label class="radio-inline">
                                                <input type="radio" name="optradio"> Full Time
@@ -175,7 +213,7 @@
                                          </div>
                                     </div>
                                     <div class="form-group row" >
-                                         <label for="inputCertifier" class="col-sm-3 col-form-label" style="margin-top: 5px;">Seniority Level</label>
+                                         <label for="inputCertifier" class="col-sm-3 col-form-label text-right" style="margin-top: 5px;">Seniority Level</label>
                                           <div class="col-sm-8 text-left">
                                            <label class="radio-inline">
                                                <input type="radio" name="optradio"> Entry Level
@@ -193,9 +231,6 @@
                                                <input type="radio" name="optradio"> Senior Management
                                           </label>      
                                          </div>
-                                         <div class="checkbox" style="float: left;margin-left: 14px;margin-top: 10px;padding: 5px;font-size: 16px;">
-                                            <label style="text-transform: none;"><input type="checkbox" value="">I agree to post this on talentfore.com</label>
-                                         </div> 
                                     </div>
                                     
                                 <div style="margin-top: 0px;">
