@@ -17,12 +17,37 @@
 }
 .step-element
 {
-    padding:8px 30px;
+    padding:8px 10px;
     
 }
+.step-element1
+                {
+                    padding:8px 30px;
+                    border:1px solid #fe6625;
+                    border-bottom-right-radius: 20px;
+                    border-top-right-radius: 20px;
+                    background-color:floralwhite;
+
+                }
 .step-element2
 {
     padding:8px 30px;
+}
+.step-element22
+{
+                   padding:8px 30px;
+                    border:1px solid #fe6625;
+                    border-bottom-right-radius: 20px;
+                    border-top-right-radius: 20px;
+                    background-color:floralwhite;
+}
+.step-element33
+{
+                   padding:8px 30px;
+                    border:1px solid #fe6625;
+                    border-bottom-right-radius: 20px;
+                    border-top-right-radius: 20px;
+                    background-color:floralwhite;
 }
 
 .step-no
@@ -125,6 +150,7 @@ label
     
 }
 .yrsOfExp
+
 {
     padding-top: 4px;
     margin-left: -40px;
@@ -160,4 +186,49 @@ label
     font-size: 15px!important;
     line-height: 20px!important;
     letter-spacing: .05em!important;
+}
+@media screen and (max-width: 550px) 
+{
+    .step-element1
+    {
+        padding: 4px 10px;
+    }
+    .step-element2
+    {
+        padding: 4px 10px;
+    }
+    .step-element3
+    {
+        padding: 4px 10px;
+    }
+    
+}
+@media screen and (max-width: 580px) 
+{
+     .step-element33
+    {
+        padding: 4px 5px;
+        border: none;
+    }
+}
+@media screen and (max-width: 484px) 
+{
+    .step-element1 , .step-element22 , .step-element33
+    {
+        padding: 4px 5px;
+        border: none;
+    }
+    .step-element2 , step-element22 , .step-element33
+    {
+        padding: 4px 5px;
+    }
+    .step-element3 , step-element22 , .step-element33
+    {
+        padding: 4px 5px;
+    }
+    .star
+    {
+        float: right;
+    }
+    
 }
